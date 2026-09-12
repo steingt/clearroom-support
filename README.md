@@ -2,17 +2,19 @@
 
 ClearRoom is a free native iPhone toolkit for inspecting possible hidden-camera clues. All features are free, with no ads, account, analytics, subscriptions or in-app purchases. Requires iOS 17 or later.
 
-## Build 6 guide
+## Build 7 guide
 
-These instructions describe the redesigned build 6, available in the existing ClearRoom TestFlight testing group. Public App Store release remains subject to Apple review. Earlier builds have a different Quick Check layout.
+**Start a check.** Connect to Wi-Fi you are allowed to inspect and tap **Start check**. ClearRoom looks for devices that may stream video and explains the result. A stopped or partial check is marked incomplete. **Wi-Fi details** holds device responses and technical information.
 
-**Start with Quick Check.** Connect to Wi-Fi you are allowed to inspect and tap Start Quick Check. ClearRoom checks common web and streaming ports and browses advertised services. Responding devices and advertised services are separate lists, not camera counts. Open a device result to see the actual evidence and a plain-language explanation. A familiar port, a streaming response or an unfamiliar name does not establish that a camera is hidden.
+**Follow the next step.** If a streaming clue is found, tap **Review finding** and compare it with devices you recognize. Ask the property owner about anything unfamiliar. Ordinary devices are not labeled as cameras; a streaming response alone does not establish that a camera is hidden.
 
-**Optional infrared check.** Tap Check for infrared light on the home screen. Choose Rear camera or Front / selfie camera, then start it. If you have a known working IR remote, point its emitter close to the selected camera and hold an infrared button. Seeing a flashing point demonstrates some sensitivity; it does not establish inspection distance or coverage of every wavelength. No remote or no visible light means the check remains unverified.
+**Try the optional light check.** Tap **Check for infrared light**. The front / selfie camera is selected initially; the rear camera is also available. The drawing shows which side to face toward the room. Tap **Open camera**, then **Record for 12 seconds**. Darken the room, face the screen toward the area and move slowly. A countdown, dim screen and start/end vibrations help you record without watching.
 
-**Record, then review.** Darken the room and keep the flashlight off. Tap Record 12-second sweep. After the countdown, point the screen and selfie lens toward the area you want to check, and sweep slowly from a steady position. Start/end vibrations and screen dimming support recording without watching. Turn the screen toward you afterward, pause or scrub the silent clip, and enlarge individual frames. A light can come from ordinary equipment, and many cameras emit no infrared.
+**Review the clip.** Turn the screen back toward you. Pause, scrub or enlarge a frame to inspect a small light. Clips are deleted when you leave or background the check. Use **Save or share clip** to keep a copy. No microphone or photo-library access is requested.
 
-Sweep clips are temporary and deleted on leaving or backgrounding the check. Save or share clip lets you explicitly export a copy. The app requests no microphone or photo-library access. Ordinary lens viewing and magnetic readings are under Individual tools. The optional checklist and saved notes remain under More.
+Infrared visibility varies by camera. The optional **Test with a TV remote** instructions help you check a known working IR remote up close. That does not establish room-distance performance or sensitivity to other wavelengths. A light can come from ordinary equipment, and many cameras emit no infrared.
+
+**More** contains Where to look, All tools, Room checklist, Saved notes and Privacy. Existing notes are preserved. Every feature is free. Public App Store availability remains subject to Apple review.
 
 ## Troubleshooting
 
