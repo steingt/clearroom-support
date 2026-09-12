@@ -6,11 +6,11 @@ ClearRoom is a free iPhone inspection toolkit provided by TMK Consultoria LTDA. 
 
 ## Camera and photos
 
-Camera permission is requested only when you start the viewer. Live video stays on your iPhone and is not recorded or uploaded. A still photo is taken only when you choose to photograph an observation. Saving the observation stores its photo inside the app. Photos are re-encoded without camera metadata. ClearRoom does not request access to your photo library or microphone.
+Camera permission is requested when you start Quick Check or the individual viewer. Live video stays on your iPhone and is not recorded or uploaded. A still photo is taken only when you choose to photograph an observation. Saving the observation stores its photo inside the app. Photos are re-encoded without camera metadata. ClearRoom does not request access to your photo library or microphone.
 
 ## Local network and sensor readings
 
-The network tool asks for Local Network permission and sends Bonjour queries on your current network to discover advertised RTSP, HTTP, and HTTPS services. It does not access devices, attempt logins, or upload results. Services stay in memory unless you record a clue. Magnetic measurements also stay in memory unless recorded. Tools stop when you leave their screen or background the app.
+Quick Check and the individual network tool ask for Local Network permission and sends Bonjour queries on your current network to discover advertised RTSP, HTTP, and HTTPS services. It does not access devices, attempt logins, or upload results. Services stay in memory unless you record a clue. Magnetic measurements also stay in memory unless recorded. Tools stop when you leave their screen or background the app.
 
 ## Storage and sharing
 
