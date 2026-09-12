@@ -1,12 +1,12 @@
-# Clearroom privacy policy
+# ClearRoom privacy policy
 
 Effective September 12, 2026.
 
-Clearroom is a free iPhone inspection toolkit provided by TMK Consultoria LTDA. The app has no account, ads, analytics, tracking SDKs, subscriptions, or in-app purchases. We do not collect or receive inspection data.
+ClearRoom is a free iPhone inspection toolkit provided by TMK Consultoria LTDA. The app has no account, ads, analytics, tracking SDKs, subscriptions, or in-app purchases. We do not collect or receive inspection data.
 
 ## Camera and photos
 
-Camera permission is requested only when you start the viewer. Live video stays on your iPhone and is not recorded or uploaded. A still photo is taken only when you choose to photograph an observation. Saving the observation stores its photo inside the app. Photos are re-encoded without camera metadata. Clearroom does not request access to your photo library or microphone.
+Camera permission is requested only when you start the viewer. Live video stays on your iPhone and is not recorded or uploaded. A still photo is taken only when you choose to photograph an observation. Saving the observation stores its photo inside the app. Photos are re-encoded without camera metadata. ClearRoom does not request access to your photo library or microphone.
 
 ## Local network and sensor readings
 
@@ -14,7 +14,7 @@ The network tool asks for Local Network permission and sends Bonjour queries on 
 
 ## Storage and sharing
 
-Notes and photos are stored in a file protected by iOS data protection inside the app. This data is excluded from backups and does not sync to iCloud. Deleting Clearroom removes its local data. Export records you want to keep first.
+Notes and photos are stored in a file protected by iOS data protection inside the app. This data is excluded from backups and does not sync to iCloud. Deleting ClearRoom removes its local data. Export records you want to keep first.
 
 You can export inspection text or share individual photos using the iOS share sheet. This happens only when you choose it. The receiving app or service handles the shared content under its own policy. Links in the guide open external websites, which have their own policies.
 
@@ -24,4 +24,6 @@ You may deny camera, network, or motion permissions and still use the checklist,
 
 ## Support
 
-Use [Clearroom support](https://github.com/steingt/clearroom-support/issues) to report a bug or ask about privacy. Support is hosted by GitHub and subject to GitHub's privacy policy. Do not post private inspection notes, room addresses, or sensitive photos in public issues.
+Contact **TMK Consultoria LTDA** at **[contato@terosmk.com.br](mailto:contato@terosmk.com.br)**. If you contact support, we receive the information you choose to send.
+
+Use [ClearRoom support](https://github.com/steingt/clearroom-support/issues) to report a bug or ask about privacy. Support is hosted by GitHub and subject to GitHub's privacy policy. Do not post private inspection notes, room addresses, or sensitive photos in public issues.
