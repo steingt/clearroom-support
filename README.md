@@ -2,19 +2,23 @@
 
 ClearRoom is a free native iPhone toolkit for inspecting possible hidden-camera clues. All features are free, with no ads, account, analytics, subscriptions or in-app purchases. Requires iOS 17 or later.
 
-## Build 8 guide
+## Build 10 guide
 
-**Start a check.** Connect to Wi-Fi you are allowed to inspect and tap **Start check**. ClearRoom looks for devices that may stream video. A progress bar and percentage show completed device checks, followed by a short result. A stopped or partial check is marked incomplete. **Wi-Fi details** holds device responses and technical information.
+**Start a check.** Connect to Wi-Fi you are allowed to inspect and tap **Start check**. ClearRoom looks for devices that may stream video. An illustration explains the process while a progress bar shows completed device checks. Keep ClearRoom open: switching apps or locking the phone stops the check. A stopped or partial check is marked incomplete. **Wi-Fi details** holds device responses and technical information.
 
 **Follow the next step.** If a streaming clue is found, tap **Review finding** and compare it with devices you recognize. Ask the property owner about anything unfamiliar. Ordinary devices are not labeled as cameras; a streaming response alone does not establish that a camera is hidden.
 
 **Try the optional light check.** Tap **Check for infrared light**. The front / selfie camera is selected initially because it can make infrared easier to see on some iPhones; the rear camera is also available. The drawing shows which side to face toward the room. Tap **Open camera**, then **Record for 12 seconds**. Darken the room, face the screen toward the area and move slowly. A countdown, dim screen and start/end vibrations help you record without watching.
 
-**Review the clip.** Turn the screen back toward you. Pause, scrub or enlarge a frame to inspect a small light. Clips are deleted when you leave or background the check. Use **Save or share clip** to keep a copy. No microphone or photo-library access is requested.
+The selfie camera and screen face the same way, so recording lets you inspect the view after turning the phone back. You can choose **Skip light check** before recording or **Cancel** to leave.
 
-Build 8 uses Apple’s device-specific orientation handling for the preview and capture. If the camera looks sideways, confirm that TestFlight has updated to build 8 and reopen it.
+**Review the clip.** Turn the screen back toward you. Pause, scrub or enlarge a frame to inspect a small light. Choose **Finish light check** when you are done, or **Record another area**. Finishing, leaving or backgrounding deletes the temporary clip. Use **Save or share clip** to keep a copy. No microphone or photo-library access is requested.
+
+ClearRoom uses Apple’s device-specific orientation handling for the preview and capture. If the camera looks sideways, confirm that TestFlight has updated to build 10 and reopen it.
 
 Infrared visibility varies by camera. The optional **Test with a TV remote** instructions help you check a known working IR remote up close. That does not establish room-distance performance or sensitivity to other wavelengths. A light can come from ordinary equipment, and many cameras emit no infrared.
+
+**Check magnetic changes** is available alongside the camera option. It measures changes near magnets or speakers; it cannot identify a camera or listening device.
 
 **More** contains Where to look, All tools, Room checklist, Saved notes and Privacy. Existing notes are preserved. Every feature is free. Public App Store availability remains subject to Apple review.
 
