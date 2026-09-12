@@ -4,7 +4,7 @@ ClearRoom is a free native iPhone toolkit for inspecting possible hidden-camera 
 
 ## Build 6 guide
 
-These instructions describe the redesigned build 6, which has been uploaded to Apple. TestFlight availability and public App Store release depend on the remaining distribution and review steps. Earlier builds have a different Quick Check layout.
+These instructions describe the redesigned build 6, available in the existing ClearRoom TestFlight testing group. Public App Store release remains subject to Apple review. Earlier builds have a different Quick Check layout.
 
 **Start with Quick Check.** Connect to Wi-Fi you are allowed to inspect and tap Start Quick Check. ClearRoom checks common web and streaming ports and browses advertised services. Responding devices and advertised services are separate lists, not camera counts. Open a device result to see the actual evidence and a plain-language explanation. A familiar port, a streaming response or an unfamiliar name does not establish that a camera is hidden.
 
