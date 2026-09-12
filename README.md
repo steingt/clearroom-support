@@ -1,25 +1,35 @@
 # ClearRoom support
 
-ClearRoom is a free native iPhone toolkit for inspecting a room for possible hidden-camera clues. Tap Start Quick Check to open the lens viewer, browse local-network services and start magnetic readings together. Detailed checklists, individual tools and saved notes are available under More options.
+ClearRoom is a free native iPhone toolkit for inspecting possible hidden-camera clues. All features are free, with no ads, account, analytics, subscriptions or in-app purchases. Requires iOS 17 or later.
 
-All features are free. No ads, account, analytics, subscriptions, or in-app purchases. Requires iOS 17 or later.
+## Build 6 guide
 
-## Help
+These instructions describe the redesigned build 6, available in the existing ClearRoom TestFlight testing group. Public App Store release remains subject to Apple review. Earlier builds have a different Quick Check layout.
+
+**Start with Quick Check.** Connect to Wi-Fi you are allowed to inspect and tap Start Quick Check. ClearRoom checks common web and streaming ports and browses advertised services. Responding devices and advertised services are separate lists, not camera counts. Open a device result to see the actual evidence and a plain-language explanation. A familiar port, a streaming response or an unfamiliar name does not establish that a camera is hidden.
+
+**Optional infrared check.** Tap Check for infrared light on the home screen. Choose Rear camera or Front / selfie camera, then start it. If you have a known working IR remote, point its emitter close to the selected camera and hold an infrared button. Seeing a flashing point demonstrates some sensitivity; it does not establish inspection distance or coverage of every wavelength. No remote or no visible light means the check remains unverified.
+
+**Record, then review.** Darken the room and keep the flashlight off. Tap Record 12-second sweep. After the countdown, point the screen and selfie lens toward the area you want to check, and sweep slowly from a steady position. Start/end vibrations and screen dimming support recording without watching. Turn the screen toward you afterward, pause or scrub the silent clip, and enlarge individual frames. A light can come from ordinary equipment, and many cameras emit no infrared.
+
+Sweep clips are temporary and deleted on leaving or backgrounding the check. Save or share clip lets you explicitly export a copy. The app requests no microphone or photo-library access. Ordinary lens viewing and magnetic readings are under Individual tools. The optional checklist and saved notes remain under More.
+
+## Troubleshooting
+
+- Camera unavailable: allow Camera in iPhone Settings, close other camera activity, and restart the selected camera. Physical camera capture needs an iPhone.
+- No network results: check Wi-Fi and Local Network permission. Direct discovery covers six common ports on the connected IPv4 subnet, up to 1,022 host addresses. IPv6, other ports, guest-network isolation, offline devices and other networks can be missed. Limited coverage is shown explicitly.
+- Infrared sensitivity varies by camera; no software removes its hardware filter. Seeing no light cannot rule out cameras or audio recorders. See [Sony’s camera-and-remote guidance](https://www.sony.ca/en/electronics/support/interchangeable-lens-cameras-e-mount-body/articles/00025283?category=interchangeable-lens-cameras-e-mount-body).
+- Magnetic readings: remove magnetic accessories before establishing a baseline. Changes cannot identify cameras or measure Wi-Fi radio signals.
+- Saved notes remain inside ClearRoom and are excluded from backups. Export what you want to keep before deleting the app.
+
+## Help and privacy
 
 Email [contato@terosmk.com.br](mailto:contato@terosmk.com.br) for support from TMK Consultoria LTDA.
 
-[Open a support issue](https://github.com/steingt/clearroom-support/issues/new) to report a bug or ask a question. Include the iPhone model, iOS version, and the steps that led to the problem. Do not post private room addresses, inspection notes, or sensitive photos. Issues are public and hosted by GitHub.
-
-- Camera unavailable: allow Camera in iPhone Settings, close other camera activity, and restart the check or camera. Some cameras have no torch.
-- Manual infrared check: open More → Individual tools → Lens viewer → Start camera → Flip to select the front camera. Point a known working infrared remote at that camera and hold a button. If its light is visible, you can look for similar points in a darkened room with the flashlight off. Sensitivity varies by camera; a successful remote test does not establish detection distance or coverage of every IR wavelength. Seeing no light does not rule out cameras, and ordinary devices can emit IR too. This does not detect audio recorders. See [Sony’s camera-and-remote guidance](https://www.sony.ca/en/electronics/support/interchangeable-lens-cameras-e-mount-body/articles/00025283?category=interchangeable-lens-cameras-e-mount-body).
-- No network results: connect to Wi-Fi and allow Local Network access. This tool only finds devices advertising supported Bonjour services; many devices do not advertise or are isolated by the network.
-- Magnetic readings: remove magnetic cases and accessories before establishing a baseline. Changes cannot identify cameras.
-- Saved notes: notes and photos remain inside ClearRoom and are excluded from backups. Export what you want to keep before deleting the app.
-
-## Privacy
+[Open a support issue](https://github.com/steingt/clearroom-support/issues/new) with your iPhone model, iOS/app version and steps to reproduce the problem. Issues are public and hosted by GitHub. Do not post private room addresses, inspection notes or sensitive photos.
 
 [Read the privacy policy](PRIVACY.md).
 
-ClearRoom is an inspection aid, not a professional surveillance detector. No app result or completed checklist can establish that a room is free of cameras.
+ClearRoom is an inspection aid. No app result or completed checklist can establish that a room is free of cameras. No measured detection accuracy is claimed.
 
 Provided by TMK Consultoria LTDA.
