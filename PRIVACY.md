@@ -14,9 +14,13 @@ In the ordinary lens viewer, a still photo is taken only when requested. Saving 
 
 ## Local network discovery
 
-Quick Check and the network tool request Local Network permission. They browse Bonjour RTSP, HTTP and HTTPS services and try TCP connections to ports 80, 443, 554, 8554, 8000 and 8080 on the connected Wi-Fi IPv4 subnet, up to 1,022 host addresses. HTTP HEAD and RTSP OPTIONS requests may read service headers; port 443 is checked only for connectivity. These requests can be visible to the network and receiving devices. ClearRoom does not attempt logins, open video streams, access stored device recordings or upload results.
+Quick Check and the network tool request Local Network permission. They browse Bonjour RTSP, HTTP, HTTPS, AirPlay, AirPlay audio, Google Cast and IPP printing services and try TCP connections to ports 80, 443, 554, 8554, 8000 and 8080 on the connected Wi-Fi IPv4 subnet, up to 1,022 host addresses. HTTP HEAD and RTSP OPTIONS requests may read service headers; port 443 is checked only for connectivity. These requests can be visible to the network and receiving devices. ClearRoom does not attempt logins, open video streams, access stored device recordings or upload results.
 
 Results stay in memory. Quick Check may continue while you navigate within ClearRoom. Stop, Finish check and backgrounding stop its discovery. The individual network tool stops when you leave it.
+
+## Bluetooth discovery
+
+The optional Bluetooth tool requests Bluetooth permission and listens for nearby Bluetooth Low Energy advertisements for up to 30 seconds per check. Device-supplied names, service identifiers, signal readings and last-seen times stay in memory on this iPhone. ClearRoom does not pair with devices, connect to them, access their content or upload Bluetooth results. Leaving the tool or backgrounding stops scanning. Devices may be outside the room, and their names are not verified identities.
 
 ## Magnetic readings and saved notes
 
@@ -28,7 +32,7 @@ Existing notes and photos are stored in an iOS-protected file inside the app, ex
 
 Exports use the iOS share sheet and happen only when you choose them. The receiving app or service handles shared content under its own policy. Guide links open external websites with their own policies.
 
-You can deny camera, network or motion permissions and still use other available tools, the checklist, notes and guide. Change permissions in iPhone Settings.
+You can deny camera, network, Bluetooth or motion permissions and still use other available tools, the checklist, notes and guide. Change permissions in iPhone Settings.
 
 ## Support
 

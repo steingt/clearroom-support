@@ -2,7 +2,7 @@
 
 ClearRoom is a free native iPhone toolkit for inspecting possible hidden-camera clues. All features are free, with no ads, account, analytics, subscriptions or in-app purchases. Requires iOS 17 or later.
 
-## Build 10 guide
+## Build 11 guide
 
 **Start a check.** Connect to Wi-Fi you are allowed to inspect and tap **Start check**. ClearRoom looks for devices that may stream video. An illustration explains the process while a progress bar shows completed device checks. Keep ClearRoom open: switching apps or locking the phone stops the check. A stopped or partial check is marked incomplete. **Wi-Fi details** holds device responses and technical information.
 
@@ -14,13 +14,17 @@ The selfie camera and screen face the same way, so recording lets you inspect th
 
 **Review the clip.** Turn the screen back toward you. Pause, scrub or enlarge a frame to inspect a small light. Choose **Finish light check** when you are done, or **Record another area**. Finishing, leaving or backgrounding deletes the temporary clip. Use **Save or share clip** to keep a copy. No microphone or photo-library access is requested.
 
-ClearRoom uses Apple’s device-specific orientation handling for the preview and capture. If the camera looks sideways, confirm that TestFlight has updated to build 10 and reopen it.
+ClearRoom uses Apple’s device-specific orientation handling for the preview and capture. If the camera looks sideways, confirm that TestFlight has updated to build 11 and reopen it.
 
 Infrared visibility varies by camera. The optional **Test with a TV remote** instructions help you check a known working IR remote up close. That does not establish room-distance performance or sensitivity to other wavelengths. A light can come from ordinary equipment, and many cameras emit no infrared.
 
-**Check magnetic changes** is available alongside the camera option. It measures changes near magnets or speakers; it cannot identify a camera or listening device.
+**Check the room visually** opens illustrated instructions for inspecting openings and comparing reflections, with access to the lens viewer and infrared check.
 
-**More** contains Where to look, All tools, Room checklist, Saved notes and Privacy. Existing notes are preserved. Every feature is free. Public App Store availability remains subject to Apple review.
+**Find Bluetooth devices** listens for nearby Bluetooth Low Energy announcements for 30 seconds. Select a device to compare signal changes. Names are device-supplied, signals do not measure distance or direction, and devices may be outside the room. ClearRoom does not pair or connect.
+
+Wi-Fi details now explain advertised AirPlay, Google Cast and printing services and show reported names or software when available. These are not verified device identities. Magnetic readings remain under **More → All tools**.
+
+**More** contains Where to look, All tools, Room checklist, Saved notes and Privacy. Existing notes are preserved. Every feature is free. The App Store release is awaiting Apple review and publishes automatically after approval. There is no public beta.
 
 ## Troubleshooting
 
